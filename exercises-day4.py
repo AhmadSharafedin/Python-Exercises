@@ -87,13 +87,9 @@ print(list(c))
 #answer = [4, 6, 8]
 
 #ex14
-
 import functools
 list = [7,2,-2,3,1,0,9]
 print (functools.reduce(lambda x,z: x if x < z else z, list))
-
-
-
 
 #ex15
 numbers = [1, 2, 3]
