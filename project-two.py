@@ -143,7 +143,7 @@ root.config(menu=top)
 
 
 def open_about():
-    messagebox.showinfo('About Us', 'Made by Ahmad Sharafeddin')
+    messagebox.showinfo('About Us', 'Made by Asma Alfauri & Mohmmad Obiedat & Ahmad Sharafeddin')
 
 
 def open_reports():
