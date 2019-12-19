@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <table>
+                <thead>
+                    <td>Department Name</td>
+                    <td>Location</td>
+                    {% for row in rows %}
+                    <tr>
+                        <td>{{row["department_name"]}}</td>
+                        <td>{{row["location_id"]}}</td>
+
+                        <td><a href='/showemployee?depID={{row["department_id"]}}'>VIEW Employee</a></td>
+                    </tr>
+                    {% endfor %}
+                </thead>
+            </table>
+    
+</body>
+</html>
